@@ -1,0 +1,22 @@
+{
+  "name": "jes-employee-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "login": "npx @google/clasp@latest login",
+    "create": "npx @google/clasp@latest create --type sheets --title \"JES Employee System\"",
+    "open-script": "npx @google/clasp@latest open-script",
+    "open-container": "npx @google/clasp@latest open-container",
+    "open-web-app": "npx @google/clasp@latest open-web-app",
+    "push": "npx @google/clasp@latest push",
+    "pull": "npx @google/clasp@latest pull",
+    "clone": "npx @google/clasp@latest clone"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@google/clasp": "^3.1.1"
+  }
+}
